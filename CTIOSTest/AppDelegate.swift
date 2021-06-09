@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CleverTapSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        CleverTap.autoIntegrate();
+     
+        
+        let profile: Dictionary<String, Any> = [
+            //Update pre-defined profile properties
+            "Name": "Jack Test Krana",
+            "Email": "jackyboy.Tester@gmail.com",
+            //Update custom profile properties
+            "Plan type": "Superman",
+            "Favorite Food": "Rice"
+        ]
+
+        CleverTap.sharedInstance()?.onUserLogin(profile)
+        
+            CleverTap.setDebugLevel(CleverTapLogLevel.debug.rawValue)
+       
+        
         return true
     }
 
@@ -24,6 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+        
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {

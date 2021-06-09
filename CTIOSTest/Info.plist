@@ -39,6 +39,10 @@
 			</array>
 		</dict>
 	</dict>
+	<key>CleverTapAccountID</key>
+	<string>TEST-79W-6KR-ZR6Z</string>
+	<key>CleverTapToken</key>
+	<string>TEST-236-0ca</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

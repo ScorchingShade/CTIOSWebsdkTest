@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D114E35D4FBA15B9FFC6D89 /* Pods_CTIOSTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7359E4CDFF63A730E80160D7 /* Pods_CTIOSTestTests.framework */; };
+		6DDB8358A4FA377078BA74DC /* Pods_CTIOSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84176A903A86D1ACE181BC9F /* Pods_CTIOSTest.framework */; };
 		BEC78C902670DFBE0005EFCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC78C8F2670DFBE0005EFCA /* AppDelegate.swift */; };
 		BEC78C922670DFBF0005EFCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC78C912670DFBF0005EFCA /* SceneDelegate.swift */; };
 		BEC78C942670DFBF0005EFCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC78C932670DFBF0005EFCA /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		BEC78C9C2670DFC00005EFCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC78C9A2670DFC00005EFCA /* LaunchScreen.storyboard */; };
 		BEC78CA72670DFC10005EFCA /* CTIOSTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC78CA62670DFC10005EFCA /* CTIOSTestTests.swift */; };
 		BEC78CB22670DFC10005EFCA /* CTIOSTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC78CB12670DFC10005EFCA /* CTIOSTestUITests.swift */; };
+		F81E9747A5CCAAB545C66418 /* Pods_CTIOSTest_CTIOSTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196011D05678BE9F82C77355 /* Pods_CTIOSTest_CTIOSTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18BC118ACCA65C58BD6CB56E /* Pods-CTIOSTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTIOSTestTests.release.xcconfig"; path = "Target Support Files/Pods-CTIOSTestTests/Pods-CTIOSTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		196011D05678BE9F82C77355 /* Pods_CTIOSTest_CTIOSTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTIOSTest_CTIOSTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		666CF1D2A81FD48CF1D4E1CF /* Pods-CTIOSTest-CTIOSTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTIOSTest-CTIOSTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-CTIOSTest-CTIOSTestUITests/Pods-CTIOSTest-CTIOSTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7359E4CDFF63A730E80160D7 /* Pods_CTIOSTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTIOSTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA673FEFD43119E2E6DC8E8 /* Pods-CTIOSTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTIOSTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CTIOSTestTests/Pods-CTIOSTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84176A903A86D1ACE181BC9F /* Pods_CTIOSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTIOSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF12B53C2E56A1321AD99109 /* Pods-CTIOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTIOSTest.release.xcconfig"; path = "Target Support Files/Pods-CTIOSTest/Pods-CTIOSTest.release.xcconfig"; sourceTree = "<group>"; };
 		BEC78C8C2670DFBE0005EFCA /* CTIOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTIOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC78C8F2670DFBE0005EFCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC78C912670DFBF0005EFCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		BEC78CAD2670DFC10005EFCA /* CTIOSTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTIOSTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC78CB12670DFC10005EFCA /* CTIOSTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTIOSTestUITests.swift; sourceTree = "<group>"; };
 		BEC78CB32670DFC10005EFCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1BB59EF4B4D80F4935CDBD /* Pods-CTIOSTest-CTIOSTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTIOSTest-CTIOSTestUITests.release.xcconfig"; path = "Target Support Files/Pods-CTIOSTest-CTIOSTestUITests/Pods-CTIOSTest-CTIOSTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FE4E5A27BAAF764E94AD1E80 /* Pods-CTIOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTIOSTest.debug.xcconfig"; path = "Target Support Files/Pods-CTIOSTest/Pods-CTIOSTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DDB8358A4FA377078BA74DC /* Pods_CTIOSTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D114E35D4FBA15B9FFC6D89 /* Pods_CTIOSTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F81E9747A5CCAAB545C66418 /* Pods_CTIOSTest_CTIOSTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		028BCE277BD391183F559D88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84176A903A86D1ACE181BC9F /* Pods_CTIOSTest.framework */,
+				196011D05678BE9F82C77355 /* Pods_CTIOSTest_CTIOSTestUITests.framework */,
+				7359E4CDFF63A730E80160D7 /* Pods_CTIOSTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		158BF8819DA5C9765746F7DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE4E5A27BAAF764E94AD1E80 /* Pods-CTIOSTest.debug.xcconfig */,
+				AF12B53C2E56A1321AD99109 /* Pods-CTIOSTest.release.xcconfig */,
+				666CF1D2A81FD48CF1D4E1CF /* Pods-CTIOSTest-CTIOSTestUITests.debug.xcconfig */,
+				FC1BB59EF4B4D80F4935CDBD /* Pods-CTIOSTest-CTIOSTestUITests.release.xcconfig */,
+				7AA673FEFD43119E2E6DC8E8 /* Pods-CTIOSTestTests.debug.xcconfig */,
+				18BC118ACCA65C58BD6CB56E /* Pods-CTIOSTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BEC78C832670DFBE0005EFCA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				BEC78CA52670DFC10005EFCA /* CTIOSTestTests */,
 				BEC78CB02670DFC10005EFCA /* CTIOSTestUITests */,
 				BEC78C8D2670DFBE0005EFCA /* Products */,
+				158BF8819DA5C9765746F7DB /* Pods */,
+				028BCE277BD391183F559D88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC78CB62670DFC10005EFCA /* Build configuration list for PBXNativeTarget "CTIOSTest" */;
 			buildPhases = (
+				912C79D7D5A6F58F5974E2C9 /* [CP] Check Pods Manifest.lock */,
 				BEC78C882670DFBE0005EFCA /* Sources */,
 				BEC78C892670DFBE0005EFCA /* Frameworks */,
 				BEC78C8A2670DFBE0005EFCA /* Resources */,
+				473E6D1EC90AC11FAA29E670 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC78CB92670DFC10005EFCA /* Build configuration list for PBXNativeTarget "CTIOSTestTests" */;
 			buildPhases = (
+				877B99DA6340AF11D964BC90 /* [CP] Check Pods Manifest.lock */,
 				BEC78C9E2670DFC10005EFCA /* Sources */,
 				BEC78C9F2670DFC10005EFCA /* Frameworks */,
 				BEC78CA02670DFC10005EFCA /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC78CBC2670DFC10005EFCA /* Build configuration list for PBXNativeTarget "CTIOSTestUITests" */;
 			buildPhases = (
+				99832038217F9B79DAF73EB7 /* [CP] Check Pods Manifest.lock */,
 				BEC78CA92670DFC10005EFCA /* Sources */,
 				BEC78CAA2670DFC10005EFCA /* Frameworks */,
 				BEC78CAB2670DFC10005EFCA /* Resources */,
+				B6A0199B5C3C9C4E0BA85C12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		473E6D1EC90AC11FAA29E670 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTIOSTest/Pods-CTIOSTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTIOSTest/Pods-CTIOSTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTIOSTest/Pods-CTIOSTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		877B99DA6340AF11D964BC90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTIOSTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		912C79D7D5A6F58F5974E2C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTIOSTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99832038217F9B79DAF73EB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTIOSTest-CTIOSTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A0199B5C3C9C4E0BA85C12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTIOSTest-CTIOSTestUITests/Pods-CTIOSTest-CTIOSTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTIOSTest-CTIOSTestUITests/Pods-CTIOSTest-CTIOSTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTIOSTest-CTIOSTestUITests/Pods-CTIOSTest-CTIOSTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEC78C882670DFBE0005EFCA /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		BEC78CB72670DFC10005EFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4E5A27BAAF764E94AD1E80 /* Pods-CTIOSTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +600,7 @@
 		};
 		BEC78CB82670DFC10005EFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF12B53C2E56A1321AD99109 /* Pods-CTIOSTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +619,7 @@
 		};
 		BEC78CBA2670DFC10005EFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA673FEFD43119E2E6DC8E8 /* Pods-CTIOSTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		BEC78CBB2670DFC10005EFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BC118ACCA65C58BD6CB56E /* Pods-CTIOSTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		BEC78CBD2670DFC10005EFCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666CF1D2A81FD48CF1D4E1CF /* Pods-CTIOSTest-CTIOSTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +686,7 @@
 		};
 		BEC78CBE2670DFC10005EFCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1BB59EF4B4D80F4935CDBD /* Pods-CTIOSTest-CTIOSTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
